@@ -2,7 +2,7 @@
 
 Este es el template oficial para los proyectos de la materia Proyecto 252. Sigue las instrucciones para configurar tu proyecto y sincronizarlo automáticamente con la galería de CETUS.
 
-## 📋 Estructura Requerida
+## 📋 Estructura Requerida 
 
 Tu repositorio debe seguir esta estructura exacta:
 
