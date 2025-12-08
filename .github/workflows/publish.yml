@@ -1,0 +1,71 @@
+name: Publicar en Galería Cetus
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+      
+      - name: Leer configuración
+        id: config
+        run: |
+          PROYECTO_ID=$(jq -r .proyecto_id .cetus.json)
+          echo "proyecto_id=$PROYECTO_ID" >> $GITHUB_OUTPUT
+      
+      - name: Generar versión
+        id: version
+        run: |
+          VERSION="v1.0.${{ github.run_number }}"
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+      
+      - name: Empaquetar ejecutable
+        run: |
+          mkdir -p release
+          cd release
+          cp -r ../bin/* .
+          cp -r ../assets .
+          zip -r ../juego-proyecto-252.zip .
+          cd ..
+      
+      - name: Crear Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          release_name: Release ${{ steps.version.outputs.version }}
+          draft: false
+          prerelease: false
+      
+      - name: Subir ZIP a Release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./juego-proyecto-252.zip
+          asset_name: juego-proyecto-252.zip
+          asset_content_type: application/zip
+      
+      - name: Notificar a Cetus
+        run: |
+          curl -X POST https://cetus.logiasimbolica.com/api/webhook/github \
+            -H "Content-Type: application/json" \
+            -H "X-Hub-Signature-256: ${{ secrets.CETUS_WEBHOOK_SECRET }}" \
+            -d '{
+              "proyecto_id": "${{ steps.config.outputs.proyecto_id }}",
+              "repository": "${{ github.repository }}",
+              "commit_hash": "${{ github.sha }}",
+              "commit_message": "${{ github.event.head_commit.message }}",
+              "commit_author": "${{ github.event.head_commit.author.name }}",
+              "commit_date": "${{ github.event.head_commit.timestamp }}",
+              "release_tag": "${{ steps.version.outputs.version }}",
+              "release_url": "${{ steps.create_release.outputs.html_url }}",
+              "download_url": "${{ steps.create_release.outputs.upload_url }}"
+            }'
