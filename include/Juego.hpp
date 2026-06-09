@@ -4,8 +4,8 @@
 
 #include <SFML/Graphics.hpp>
 
-#include "../entidades/Plomero.hpp"
-#include "../mundo/Nivel.hpp"
+#include "Plomero.hpp"
+#include "Nivel.hpp"
 
 enum class EstadoJuego
 {

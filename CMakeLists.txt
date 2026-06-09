@@ -15,13 +15,12 @@ find_package(SFML REQUIRED COMPONENTS
 include_directories(include)
 
 file(GLOB_RECURSE SOURCES
-    src/*.cpp
+    "${PROJECT_SOURCE_DIR}/src/*.cpp"
 )
 
 add_executable(
     SuperMario
     ${SOURCES}
-    main.cpp
 )
 
 target_link_libraries(

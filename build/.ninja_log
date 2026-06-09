@@ -1,0 +1,17 @@
+# ninja log v7
+195	11057	8026874113975648	CMakeFiles/SuperMario.dir/src/Champinion.cpp.obj	75def7b49408e405
+63	11148	8026874112661722	CMakeFiles/SuperMario.dir/src/Bloque.cpp.obj	f182b69a7edd43cc
+142	11192	8026874113728593	CMakeFiles/SuperMario.dir/src/Camara.cpp.obj	d61e3e1c63e56e94
+120	11204	8026874113332131	CMakeFiles/SuperMario.dir/src/BossFinal.cpp.obj	777bee36b1a66716
+54	9581	8026878709237361	CMakeFiles/SuperMario.dir/src/ChampinionVerde.cpp.obj	d1e7ef0da1a932e8
+80	9595	8026878709477344	CMakeFiles/SuperMario.dir/src/Cielo.cpp.obj	a2a49a47c8ed5e08
+122	10202	8026878710917209	CMakeFiles/SuperMario.dir/src/Entidad.cpp.obj	5730869d3ba67696
+56	9478	8026887087807753	CMakeFiles/SuperMario.dir/src/Estrella.cpp.obj	bc0c677948bf40a5
+97	9532	8026887088156466	CMakeFiles/SuperMario.dir/src/Fondo.cpp.obj	98e9e2a61f2925d8
+57	10112	8026904257918614	CMakeFiles/SuperMario.dir/src/GestorColisiones.cpp.obj	4a80ac49d08c6d78
+125	10842	8026887569800778	CMakeFiles/SuperMario.dir/src/GestorRecursos.cpp.obj	48e52f10f328cf89
+71	9749	8026895057700926	CMakeFiles/SuperMario.dir/src/Girasol.cpp.obj	ab5b4cf7b92cab47
+30	9756	8026895057016618	CMakeFiles/SuperMario.dir/src/Boss.cpp.obj	b89d8073fe292924
+110	10099	8026895057869171	CMakeFiles/SuperMario.dir/src/Juego.cpp.obj	47624948d55ab630
+92	9591	8026897698589933	CMakeFiles/SuperMario.dir/src/Moneda.cpp.obj	fbeb2589625e9837
+141	9948	8026908344889170	CMakeFiles/SuperMario.dir/src/Nivel.cpp.obj	6dae69f67f2bc904

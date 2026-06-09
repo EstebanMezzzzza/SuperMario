@@ -1,6 +1,11 @@
 #pragma once
 
+#include <vector>
+#include <memory>
+
 #include "Entidad.hpp"
+
+class Bolita;
 
 class Jugador : public Entidad
 {
@@ -10,6 +15,14 @@ protected:
     int puntuacion;
 
     bool enSuelo;
+    bool invencible;
+
+    float velocidadMovimiento;
+    float fuerzaSalto;
+
+    std::vector<
+        std::unique_ptr<Bolita>
+    > proyectiles;
 
 public:
 
@@ -17,13 +30,21 @@ public:
 
     virtual ~Jugador();
 
-    virtual void mover(float direccion);
+    virtual void mover(
+        float direccion
+    );
 
     virtual void saltar();
 
-    virtual void recibirDanio(int cantidad);
+    virtual void disparar();
 
-    virtual void actualizar(float dt) override;
+    virtual void recibirDanio(
+        int cantidad
+    );
+
+    virtual void actualizar(
+        float dt
+    ) override;
 
     int getVidas() const;
 
