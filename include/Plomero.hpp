@@ -5,10 +5,8 @@
 class Plomero : public Jugador
 {
 public:
-
     Plomero();
-
-    virtual ~Plomero();
+    ~Plomero() override;
 
     void actualizar(float dt) override;
 };

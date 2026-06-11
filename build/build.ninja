@@ -50,6 +50,8 @@ build CMakeFiles/SuperMario.dir/src/Bloque.cpp.obj: CXX_COMPILER__SuperMario_uns
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Bolita.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Bolita.cpp || cmake_object_order_depends_target_SuperMario
@@ -58,6 +60,8 @@ build CMakeFiles/SuperMario.dir/src/Bolita.cpp.obj: CXX_COMPILER__SuperMario_uns
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Boss.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Boss.cpp || cmake_object_order_depends_target_SuperMario
@@ -66,6 +70,8 @@ build CMakeFiles/SuperMario.dir/src/Boss.cpp.obj: CXX_COMPILER__SuperMario_unsca
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/BossFinal.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/BossFinal.cpp || cmake_object_order_depends_target_SuperMario
@@ -74,6 +80,8 @@ build CMakeFiles/SuperMario.dir/src/BossFinal.cpp.obj: CXX_COMPILER__SuperMario_
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Camara.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Camara.cpp || cmake_object_order_depends_target_SuperMario
@@ -82,6 +90,8 @@ build CMakeFiles/SuperMario.dir/src/Camara.cpp.obj: CXX_COMPILER__SuperMario_uns
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Champinion.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Champinion.cpp || cmake_object_order_depends_target_SuperMario
@@ -90,6 +100,8 @@ build CMakeFiles/SuperMario.dir/src/Champinion.cpp.obj: CXX_COMPILER__SuperMario
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/ChampinionVerde.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/ChampinionVerde.cpp || cmake_object_order_depends_target_SuperMario
@@ -98,6 +110,8 @@ build CMakeFiles/SuperMario.dir/src/ChampinionVerde.cpp.obj: CXX_COMPILER__Super
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Cielo.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Cielo.cpp || cmake_object_order_depends_target_SuperMario
@@ -106,6 +120,8 @@ build CMakeFiles/SuperMario.dir/src/Cielo.cpp.obj: CXX_COMPILER__SuperMario_unsc
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Enemigo.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Enemigo.cpp || cmake_object_order_depends_target_SuperMario
@@ -114,6 +130,8 @@ build CMakeFiles/SuperMario.dir/src/Enemigo.cpp.obj: CXX_COMPILER__SuperMario_un
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Entidad.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Entidad.cpp || cmake_object_order_depends_target_SuperMario
@@ -122,6 +140,8 @@ build CMakeFiles/SuperMario.dir/src/Entidad.cpp.obj: CXX_COMPILER__SuperMario_un
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Estrella.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Estrella.cpp || cmake_object_order_depends_target_SuperMario
@@ -130,6 +150,8 @@ build CMakeFiles/SuperMario.dir/src/Estrella.cpp.obj: CXX_COMPILER__SuperMario_u
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Fantasma.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Fantasma.cpp || cmake_object_order_depends_target_SuperMario
@@ -138,6 +160,8 @@ build CMakeFiles/SuperMario.dir/src/Fantasma.cpp.obj: CXX_COMPILER__SuperMario_u
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Fondo.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Fondo.cpp || cmake_object_order_depends_target_SuperMario
@@ -146,6 +170,8 @@ build CMakeFiles/SuperMario.dir/src/Fondo.cpp.obj: CXX_COMPILER__SuperMario_unsc
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/GestorColisiones.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/GestorColisiones.cpp || cmake_object_order_depends_target_SuperMario
@@ -154,6 +180,8 @@ build CMakeFiles/SuperMario.dir/src/GestorColisiones.cpp.obj: CXX_COMPILER__Supe
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/GestorRecursos.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/GestorRecursos.cpp || cmake_object_order_depends_target_SuperMario
@@ -162,6 +190,8 @@ build CMakeFiles/SuperMario.dir/src/GestorRecursos.cpp.obj: CXX_COMPILER__SuperM
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Girasol.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Girasol.cpp || cmake_object_order_depends_target_SuperMario
@@ -170,6 +200,8 @@ build CMakeFiles/SuperMario.dir/src/Girasol.cpp.obj: CXX_COMPILER__SuperMario_un
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Juego.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Juego.cpp || cmake_object_order_depends_target_SuperMario
@@ -178,6 +210,8 @@ build CMakeFiles/SuperMario.dir/src/Juego.cpp.obj: CXX_COMPILER__SuperMario_unsc
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Jugador.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Jugador.cpp || cmake_object_order_depends_target_SuperMario
@@ -186,6 +220,8 @@ build CMakeFiles/SuperMario.dir/src/Jugador.cpp.obj: CXX_COMPILER__SuperMario_un
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Moneda.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Moneda.cpp || cmake_object_order_depends_target_SuperMario
@@ -194,6 +230,8 @@ build CMakeFiles/SuperMario.dir/src/Moneda.cpp.obj: CXX_COMPILER__SuperMario_uns
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Monstruo.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Monstruo.cpp || cmake_object_order_depends_target_SuperMario
@@ -202,6 +240,8 @@ build CMakeFiles/SuperMario.dir/src/Monstruo.cpp.obj: CXX_COMPILER__SuperMario_u
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Nivel.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Nivel.cpp || cmake_object_order_depends_target_SuperMario
@@ -210,6 +250,8 @@ build CMakeFiles/SuperMario.dir/src/Nivel.cpp.obj: CXX_COMPILER__SuperMario_unsc
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Nube.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Nube.cpp || cmake_object_order_depends_target_SuperMario
@@ -218,6 +260,8 @@ build CMakeFiles/SuperMario.dir/src/Nube.cpp.obj: CXX_COMPILER__SuperMario_unsca
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/ObjetoEscenario.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/ObjetoEscenario.cpp || cmake_object_order_depends_target_SuperMario
@@ -226,6 +270,8 @@ build CMakeFiles/SuperMario.dir/src/ObjetoEscenario.cpp.obj: CXX_COMPILER__Super
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Paisaje.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Paisaje.cpp || cmake_object_order_depends_target_SuperMario
@@ -234,6 +280,8 @@ build CMakeFiles/SuperMario.dir/src/Paisaje.cpp.obj: CXX_COMPILER__SuperMario_un
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Pez.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Pez.cpp || cmake_object_order_depends_target_SuperMario
@@ -242,6 +290,8 @@ build CMakeFiles/SuperMario.dir/src/Pez.cpp.obj: CXX_COMPILER__SuperMario_unscan
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/PlantaMordedora.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/PlantaMordedora.cpp || cmake_object_order_depends_target_SuperMario
@@ -250,6 +300,8 @@ build CMakeFiles/SuperMario.dir/src/PlantaMordedora.cpp.obj: CXX_COMPILER__Super
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Plomero.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Plomero.cpp || cmake_object_order_depends_target_SuperMario
@@ -258,6 +310,18 @@ build CMakeFiles/SuperMario.dir/src/Plomero.cpp.obj: CXX_COMPILER__SuperMario_un
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
+
+build CMakeFiles/SuperMario.dir/src/PowerUp.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/PowerUp.cpp || cmake_object_order_depends_target_SuperMario
+  DEP_FILE = CMakeFiles\SuperMario.dir\src\PowerUp.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
+  OBJECT_DIR = CMakeFiles\SuperMario.dir
+  OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Tortuga.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Tortuga.cpp || cmake_object_order_depends_target_SuperMario
@@ -266,6 +330,8 @@ build CMakeFiles/SuperMario.dir/src/Tortuga.cpp.obj: CXX_COMPILER__SuperMario_un
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/Tubo.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/Tubo.cpp || cmake_object_order_depends_target_SuperMario
@@ -274,6 +340,8 @@ build CMakeFiles/SuperMario.dir/src/Tubo.cpp.obj: CXX_COMPILER__SuperMario_unsca
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 build CMakeFiles/SuperMario.dir/src/main.cpp.obj: CXX_COMPILER__SuperMario_unscanned_ C$:/Users/dell/Desktop/SuperMario/SuperMario/src/main.cpp || cmake_object_order_depends_target_SuperMario
@@ -282,6 +350,8 @@ build CMakeFiles/SuperMario.dir/src/main.cpp.obj: CXX_COMPILER__SuperMario_unsca
   INCLUDES = -IC:/Users/dell/Desktop/SuperMario/SuperMario/include
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   OBJECT_FILE_DIR = CMakeFiles\SuperMario.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 
@@ -292,14 +362,15 @@ build CMakeFiles/SuperMario.dir/src/main.cpp.obj: CXX_COMPILER__SuperMario_unsca
 #############################################
 # Link the executable SuperMario.exe
 
-build SuperMario.exe: CXX_EXECUTABLE_LINKER__SuperMario_ CMakeFiles/SuperMario.dir/src/Bloque.cpp.obj CMakeFiles/SuperMario.dir/src/Bolita.cpp.obj CMakeFiles/SuperMario.dir/src/Boss.cpp.obj CMakeFiles/SuperMario.dir/src/BossFinal.cpp.obj CMakeFiles/SuperMario.dir/src/Camara.cpp.obj CMakeFiles/SuperMario.dir/src/Champinion.cpp.obj CMakeFiles/SuperMario.dir/src/ChampinionVerde.cpp.obj CMakeFiles/SuperMario.dir/src/Cielo.cpp.obj CMakeFiles/SuperMario.dir/src/Enemigo.cpp.obj CMakeFiles/SuperMario.dir/src/Entidad.cpp.obj CMakeFiles/SuperMario.dir/src/Estrella.cpp.obj CMakeFiles/SuperMario.dir/src/Fantasma.cpp.obj CMakeFiles/SuperMario.dir/src/Fondo.cpp.obj CMakeFiles/SuperMario.dir/src/GestorColisiones.cpp.obj CMakeFiles/SuperMario.dir/src/GestorRecursos.cpp.obj CMakeFiles/SuperMario.dir/src/Girasol.cpp.obj CMakeFiles/SuperMario.dir/src/Juego.cpp.obj CMakeFiles/SuperMario.dir/src/Jugador.cpp.obj CMakeFiles/SuperMario.dir/src/Moneda.cpp.obj CMakeFiles/SuperMario.dir/src/Monstruo.cpp.obj CMakeFiles/SuperMario.dir/src/Nivel.cpp.obj CMakeFiles/SuperMario.dir/src/Nube.cpp.obj CMakeFiles/SuperMario.dir/src/ObjetoEscenario.cpp.obj CMakeFiles/SuperMario.dir/src/Paisaje.cpp.obj CMakeFiles/SuperMario.dir/src/Pez.cpp.obj CMakeFiles/SuperMario.dir/src/PlantaMordedora.cpp.obj CMakeFiles/SuperMario.dir/src/Plomero.cpp.obj CMakeFiles/SuperMario.dir/src/Tortuga.cpp.obj CMakeFiles/SuperMario.dir/src/Tubo.cpp.obj CMakeFiles/SuperMario.dir/src/main.cpp.obj | C$:/msys64/mingw64/lib/libsfml-graphics.dll.a C$:/msys64/mingw64/lib/libsfml-window.dll.a C$:/msys64/mingw64/lib/libsfml-audio.dll.a C$:/msys64/mingw64/lib/libsfml-system.dll.a
+build SuperMario.exe: CXX_EXECUTABLE_LINKER__SuperMario_ CMakeFiles/SuperMario.dir/src/Bloque.cpp.obj CMakeFiles/SuperMario.dir/src/Bolita.cpp.obj CMakeFiles/SuperMario.dir/src/Boss.cpp.obj CMakeFiles/SuperMario.dir/src/BossFinal.cpp.obj CMakeFiles/SuperMario.dir/src/Camara.cpp.obj CMakeFiles/SuperMario.dir/src/Champinion.cpp.obj CMakeFiles/SuperMario.dir/src/ChampinionVerde.cpp.obj CMakeFiles/SuperMario.dir/src/Cielo.cpp.obj CMakeFiles/SuperMario.dir/src/Enemigo.cpp.obj CMakeFiles/SuperMario.dir/src/Entidad.cpp.obj CMakeFiles/SuperMario.dir/src/Estrella.cpp.obj CMakeFiles/SuperMario.dir/src/Fantasma.cpp.obj CMakeFiles/SuperMario.dir/src/Fondo.cpp.obj CMakeFiles/SuperMario.dir/src/GestorColisiones.cpp.obj CMakeFiles/SuperMario.dir/src/GestorRecursos.cpp.obj CMakeFiles/SuperMario.dir/src/Girasol.cpp.obj CMakeFiles/SuperMario.dir/src/Juego.cpp.obj CMakeFiles/SuperMario.dir/src/Jugador.cpp.obj CMakeFiles/SuperMario.dir/src/Moneda.cpp.obj CMakeFiles/SuperMario.dir/src/Monstruo.cpp.obj CMakeFiles/SuperMario.dir/src/Nivel.cpp.obj CMakeFiles/SuperMario.dir/src/Nube.cpp.obj CMakeFiles/SuperMario.dir/src/ObjetoEscenario.cpp.obj CMakeFiles/SuperMario.dir/src/Paisaje.cpp.obj CMakeFiles/SuperMario.dir/src/Pez.cpp.obj CMakeFiles/SuperMario.dir/src/PlantaMordedora.cpp.obj CMakeFiles/SuperMario.dir/src/Plomero.cpp.obj CMakeFiles/SuperMario.dir/src/PowerUp.cpp.obj CMakeFiles/SuperMario.dir/src/Tortuga.cpp.obj CMakeFiles/SuperMario.dir/src/Tubo.cpp.obj CMakeFiles/SuperMario.dir/src/main.cpp.obj | C$:/msys64/mingw64/lib/libsfml-graphics.dll.a C$:/msys64/mingw64/lib/libsfml-window.dll.a C$:/msys64/mingw64/lib/libsfml-audio.dll.a C$:/msys64/mingw64/lib/libsfml-system.dll.a
   LINK_LIBRARIES = C:/msys64/mingw64/lib/libsfml-graphics.dll.a  C:/msys64/mingw64/lib/libsfml-window.dll.a  C:/msys64/mingw64/lib/libsfml-audio.dll.a  C:/msys64/mingw64/lib/libsfml-system.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SuperMario.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\SuperMario.dir\
   TARGET_FILE = SuperMario.exe
   TARGET_IMPLIB = libSuperMario.dll.a
-  TARGET_PDB = SuperMario.exe.dbg
+  TARGET_PDB = SuperMario.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\SuperMario.dir
 
 
@@ -347,14 +418,14 @@ build all: phony SuperMario.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/dell/Desktop/SuperMario/SuperMario/build/cmake_install.cmake: RERUN_CMAKE | C$:/Users/dell/Desktop/SuperMario/SuperMario/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/SFML/SFMLAudioSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLAudioSharedTargets.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLConfig.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLGraphicsSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLGraphicsSharedTargets.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLSystemSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLSystemSharedTargets.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLWindowSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLWindowSharedTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.3.3/CMakeCCompiler.cmake CMakeFiles/4.3.3/CMakeCXXCompiler.cmake CMakeFiles/4.3.3/CMakeRCCompiler.cmake CMakeFiles/4.3.3/CMakeSystem.cmake
+build build.ninja C$:/Users/dell/Desktop/SuperMario/SuperMario/build/cmake_install.cmake: RERUN_CMAKE | C$:/Users/dell/Desktop/SuperMario/SuperMario/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/SFML/SFMLAudioSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLAudioSharedTargets.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLConfig.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLGraphicsSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLGraphicsSharedTargets.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLSystemSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLSystemSharedTargets.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLWindowSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLWindowSharedTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.3.3/CMakeCCompiler.cmake CMakeFiles/4.3.3/CMakeCXXCompiler.cmake CMakeFiles/4.3.3/CMakeRCCompiler.cmake CMakeFiles/4.3.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/dell/Desktop/SuperMario/SuperMario/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/SFML/SFMLAudioSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLAudioSharedTargets.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLConfig.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLGraphicsSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLGraphicsSharedTargets.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLSystemSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLSystemSharedTargets.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLWindowSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLWindowSharedTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.3.3/CMakeCCompiler.cmake CMakeFiles/4.3.3/CMakeCXXCompiler.cmake CMakeFiles/4.3.3/CMakeRCCompiler.cmake CMakeFiles/4.3.3/CMakeSystem.cmake: phony
+build C$:/Users/dell/Desktop/SuperMario/SuperMario/CMakeLists.txt C$:/msys64/mingw64/lib/cmake/SFML/SFMLAudioSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLAudioSharedTargets.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLConfig.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLGraphicsSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLGraphicsSharedTargets.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLSystemSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLSystemSharedTargets.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLWindowSharedTargets-release.cmake C$:/msys64/mingw64/lib/cmake/SFML/SFMLWindowSharedTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.3.3/CMakeCCompiler.cmake CMakeFiles/4.3.3/CMakeCXXCompiler.cmake CMakeFiles/4.3.3/CMakeRCCompiler.cmake CMakeFiles/4.3.3/CMakeSystem.cmake: phony
 
 
 #############################################

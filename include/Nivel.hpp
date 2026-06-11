@@ -31,6 +31,8 @@ protected:
         std::unique_ptr<Tubo>
     > tubos;
 
+   
+
 public:
 
     Nivel();
@@ -47,4 +49,12 @@ public:
         sf::RenderWindow&
         ventana
     );
+
+     std::vector<
+    std::unique_ptr<Moneda>
+>& getMonedas();
+
+std::vector<
+    std::unique_ptr<Enemigo>
+>& getEnemigos();
 };

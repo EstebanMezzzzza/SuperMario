@@ -1,32 +1,49 @@
 #include "Jugador.hpp"
 #include "Bolita.hpp"
+#include <iostream>
 
 Jugador::Jugador()
 {
     vidas = 3;
-
     puntuacion = 0;
-
-    enSuelo = false;
 
     invencible = false;
 
-    velocidadMovimiento = 250.f;
+    tiempoInvencible = 0.f;
 
-    fuerzaSalto = -550.f;
+    enSuelo = true;
+
+    invencible = false;
+
+    velocidadMovimiento = 350.f;
+    fuerzaSalto = -750.f;
 }
 
 Jugador::~Jugador()
 {
 }
 
-void Jugador::mover(
-    float direccion
-)
+void Jugador::mover(float direccion)
 {
     velocidad.x =
         direccion *
         velocidadMovimiento;
+
+    if(sprite)
+    {
+        if(direccion > 0)
+        {
+            sprite->setScale(
+                {0.15f, 0.15f}
+            );
+        }
+        else if(direccion < 0)
+        {
+            sprite->setScale(
+                {-0.15f, 0.15f}
+            );
+        }
+    }
 }
 
 void Jugador::saltar()
@@ -44,9 +61,7 @@ void Jugador::disparar()
 {
 }
 
-void Jugador::recibirDanio(
-    int cantidad
-)
+void Jugador::recibirDanio(int cantidad)
 {
     if(invencible)
     {
@@ -55,28 +70,50 @@ void Jugador::recibirDanio(
 
     vidas -= cantidad;
 
-    if(vidas < 0)
-    {
-        vidas = 0;
-    }
+    invencible = true;
+
+    tiempoInvencible = 1.5f;
 }
 
-void Jugador::actualizar(
-    float dt
-)
+void Jugador::actualizar(float dt)
 {
+    if(invencible)
+{
+    tiempoInvencible -= dt;
+
+    if(tiempoInvencible <= 0.f)
+    {
+        invencible = false;
+    }
+}
     constexpr float gravedad =
         1200.f;
 
     velocidad.y +=
         gravedad * dt;
 
-    sprite->move(
-        velocidad * dt
-    );
+    if(sprite)
+    {
+        sprite->move(
+            velocidad * dt
+        );
 
-    posicion =
-        sprite->getPosition();
+        posicion =
+            sprite->getPosition();
+
+        if(posicion.y >= 570.f)
+        {
+            posicion.y = 570.f;
+
+            sprite->setPosition(
+                posicion
+            );
+
+            velocidad.y = 0.f;
+
+            enSuelo = true;
+        }
+    }
 
     for(auto& bolita :
         proyectiles)

@@ -1,4 +1,5 @@
 #include "Entidad.hpp"
+#include <iostream>
 
 Entidad::Entidad()
     :
@@ -12,12 +13,11 @@ Entidad::~Entidad()
 {
 }
 
-void Entidad::dibujar(
-    sf::RenderWindow& ventana
-)
+void Entidad::dibujar(sf::RenderWindow& ventana)
 {
     if(activa && sprite)
     {
+        std::cout << "Dibujando sprite\n";
         ventana.draw(*sprite);
     }
 }

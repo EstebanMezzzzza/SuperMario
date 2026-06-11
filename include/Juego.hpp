@@ -24,6 +24,8 @@ private:
 
     EstadoJuego estado;
 
+    sf::View camara;
+
     std::unique_ptr<Plomero> jugador;
 
     std::unique_ptr<Nivel> nivelActual;

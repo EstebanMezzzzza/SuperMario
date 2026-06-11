@@ -12,5 +12,9 @@ public:
 
     ~PowerUp() override;
 
-    virtual void aplicar(Jugador& jugador) = 0;
+    void actualizar(float dt) override;
+
+    virtual void aplicar(
+        Jugador& jugador
+    ) = 0;
 };

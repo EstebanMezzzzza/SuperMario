@@ -4,7 +4,15 @@ Bloque::Bloque()
     : destruido(false),
       contenido(nullptr)
 {
+    cargarTextura(
+        "assets/images/bloque.png"
+    );
+
+    sprite->setScale(
+        {.15f, .15f}
+    );
 }
+
 
 Bloque::~Bloque()
 {

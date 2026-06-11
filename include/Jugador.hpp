@@ -17,6 +17,7 @@ protected:
     bool enSuelo;
     bool invencible;
 
+    float tiempoInvencible;
     float velocidadMovimiento;
     float fuerzaSalto;
 
