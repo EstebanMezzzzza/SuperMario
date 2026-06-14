@@ -55,4 +55,9 @@ public:
     void activar();
 
     void desactivar();
+
+    void setEscala(
+    float x,
+    float y
+);
 };

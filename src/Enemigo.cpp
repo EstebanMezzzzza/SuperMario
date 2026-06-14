@@ -13,6 +13,7 @@ Enemigo::Enemigo()
     sprite->setScale(
         {.15f, .15f}
     );
+
 }
 
 Enemigo::~Enemigo()
@@ -30,7 +31,22 @@ void Enemigo::mover()
     {
         velocidad.x = -100.f;
     }
+
+    if(
+        posicion.x < 800.f
+    )
+    {
+        velocidad.x = 80.f;
+    }
+
+    if(
+        posicion.x > 1300.f
+    )
+    {
+        velocidad.x = -80.f;
+    }
 }
+
 
 void Enemigo::actualizar(float dt)
 {

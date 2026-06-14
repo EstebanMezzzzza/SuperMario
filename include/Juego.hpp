@@ -22,6 +22,14 @@ private:
 
     sf::RenderWindow ventana;
 
+    sf::Font fuente;
+
+    std::unique_ptr<sf::Text>
+        textoVidas;
+
+    std::unique_ptr<sf::Text>
+        textoPuntos;
+
     EstadoJuego estado;
 
     sf::View camara;
@@ -40,7 +48,9 @@ private:
 
     void procesarEventos();
 
-    void actualizar(float dt);
+    void actualizar(
+        float dt
+    );
 
     void renderizar();
 };

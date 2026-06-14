@@ -1,10 +1,11 @@
 #include "Juego.hpp"
 #include <iostream>
+#include <cmath>
 
 Juego::Juego():
     ventana(
     sf::VideoMode({1280,720}),
-    "PRUEBA123"
+    "Super Mario"
 )
 {
     estado =
@@ -13,6 +14,16 @@ Juego::Juego():
     camara =
     ventana.getDefaultView();
 
+    textoVidas =
+    std::make_unique<sf::Text>(
+        fuente
+    );
+
+textoPuntos =
+    std::make_unique<sf::Text>(
+        fuente
+    );
+
     jugador =
         std::make_unique<
             Plomero>();
@@ -20,6 +31,33 @@ Juego::Juego():
     nivelActual =
         std::make_unique<
             Nivel>();
+
+    fuente.openFromFile(
+    "assets/fonts/arial.ttf"
+);
+
+textoVidas->setString(
+    "Vidas: " +
+    std::to_string(
+        jugador->getVidas()
+    )
+);
+
+textoPuntos->setString(
+    "Puntos: " +
+    std::to_string(
+        jugador->getPuntuacion()
+    )
+);
+
+textoVidas->setPosition(
+    {20.f, 20.f}
+);
+
+textoPuntos->setPosition(
+    {20.f, 60.f}
+);
+
 }
 
 void Juego::ejecutar()
@@ -60,7 +98,18 @@ void Juego::procesarEventos()
 
 void Juego::actualizar(float dt)
 {
+
+    std::cout
+    << "Enemigos: "
+    << nivelActual->getEnemigos().size()
+    << std::endl;
+
+
     float direccion = 0.f;
+
+    jugador->actualizar(dt);
+
+    nivelActual->actualizar(dt);
 
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
         direccion = -1.f;
@@ -75,9 +124,7 @@ void Juego::actualizar(float dt)
         jugador->saltar();
     }
 
-    jugador->actualizar(dt);
-
-    for(auto& moneda :
+for(auto& moneda :
     nivelActual->getMonedas())
 {
     if(
@@ -89,7 +136,16 @@ void Juego::actualizar(float dt)
             )
     )
     {
-        moneda->recoger();
+        if(
+            !moneda->estaRecogida()
+        )
+        {
+            moneda->recoger();
+
+            jugador->agregarPuntos(
+                100
+            );
+        }
     }
 }
 
@@ -99,71 +155,253 @@ void Juego::actualizar(float dt)
         360.f
     });
 
-    for(auto& enemigo :
+for(auto& enemigo :
     nivelActual->getEnemigos())
+{
+    auto marioRect =
+        jugador->obtenerLimites();
+
+    auto enemigoRect =
+        enemigo->obtenerLimites();
+
+    std::cout
+        << "Mario: "
+        << marioRect.position.x
+        << ", "
+        << marioRect.position.y
+        << "\n";
+
+    std::cout
+        << "Goomba: "
+        << enemigoRect.position.x
+        << ", "
+        << enemigoRect.position.y
+        << "\n";
+
+        std::cout
+        << "Mario size: "
+        << marioRect.size.x
+        << ", "
+        << marioRect.size.y
+        << "\n";
+
+    std::cout
+        << "Goomba size: "
+        << enemigoRect.size.x
+        << ", "
+        << enemigoRect.size.y
+        << "\n";
+
+    auto interseccion =
+    marioRect.findIntersection(
+        enemigoRect
+    );
+
+if(interseccion.has_value())
+{
+    std::cout
+        << "COLISION DETECTADA\n";
+
+    jugador->recibirDanio(1);
+}
+}
+
+for(auto& enemigo :
+    nivelActual->getEnemigos())
+{
+    float dx =
+        std::abs(
+            jugador->getPosicion().x -
+            enemigo->getPosicion().x
+        );
+
+    float dy =
+        std::abs(
+            jugador->getPosicion().y -
+            enemigo->getPosicion().y
+        );
+
+    if(dx < 40.f && dy < 40.f)
 {
     if(
         jugador
-            ->obtenerLimites()
-            .findIntersection(
-                enemigo
-                ->obtenerLimites()
-            )
+            ->getVelocidad()
+            .y > 0
     )
     {
-        jugador
-            ->recibirDanio(1);
+        enemigo->desactivar();
+
+        jugador->agregarPuntos(
+            200
+        );
+    }
+    else
+    {
+        jugador->recibirDanio(1);
     }
 }
+}
+
+for(auto& bloque :
+    nivelActual->getBloques())
+{
+    auto interseccion =
+        jugador->obtenerLimites()
+        .findIntersection(
+            bloque->obtenerLimites()
+        );
+
+    if(interseccion.has_value())
+    {
+        if(
+            jugador->getVelocidad().y > 0
+        )
+        {
+            auto pos =
+                jugador->getPosicion();
+
+            pos.y -=
+                interseccion->size.y;
+
+            jugador->setPosicion(
+                pos.x,
+                pos.y
+            );
+
+            jugador->setVelocidad(
+            {
+                jugador->getVelocidad().x,
+                0.f
+            });
+        }
+    }
+}
+
+if(
+    jugador->getVidas() <= 0
+)
+{
+    estado =
+        EstadoJuego::GAME_OVER;
+}
+
+if(
+    jugador->getPosicion().x >
+    3000.f
+)
+{
+    estado =
+        EstadoJuego::VICTORIA;
+}
+
+textoPuntos->setString(
+    "Puntos: " +
+    std::to_string(
+        jugador->getPuntuacion()
+    )
+);
+
+textoVidas->setString(
+    "Vidas: " +
+    std::to_string(
+        jugador->getVidas()
+    )
+);
+
 }
 
 void Juego::renderizar()
 {
-    ventana.clear(sf::Color::Blue);
+    ventana.clear(
+        sf::Color(100,149,237)
+    );
 
+    // Vista del mundo
     ventana.setView(camara);
 
-    sf::RectangleShape suelo({3000.f,100.f});
-    suelo.setPosition({0.f,620.f});
-    suelo.setFillColor(sf::Color(50,200,50));
-    ventana.draw(suelo);
+    nivelActual->dibujar(
+        ventana
+    );
 
-    for(int i = 0; i < 5; i++)
+    jugador->dibujar(
+        ventana
+    );
+
+    for(auto& enemigo :
+        nivelActual->getEnemigos())
     {
-        sf::RectangleShape bloque({64.f,64.f});
+        auto r =
+            enemigo->obtenerLimites();
 
-        bloque.setPosition(
-        {
-            500.f + i * 64.f,
-            400.f
-        });
+        sf::RectangleShape caja;
 
-        bloque.setFillColor(
-            sf::Color(180,100,30)
+        caja.setPosition(
+            {
+                r.position.x,
+                r.position.y
+            }
         );
 
-        ventana.draw(bloque);
+        caja.setSize(
+            {
+                r.size.x,
+                r.size.y
+            }
+        );
+
+        caja.setFillColor(
+            sf::Color::Transparent
+        );
+
+        caja.setOutlineThickness(
+            2.f
+        );
+
+        caja.setOutlineColor(
+            sf::Color::Red
+        );
+
+        ventana.draw(caja);
     }
 
-    sf::CircleShape moneda(15.f);
-    moneda.setPosition({800.f,300.f});
-    moneda.setFillColor(sf::Color::Yellow);
-    ventana.draw(moneda);
+    // Cambiar a la vista fija de la interfaz
+    ventana.setView(
+        ventana.getDefaultView()
+    );
 
-    sf::RectangleShape goomba({50.f,50.f});
-    goomba.setPosition({1200.f,570.f});
-    goomba.setFillColor(sf::Color::Red);
-    ventana.draw(goomba);
+    ventana.draw(
+        *textoVidas
+    );
 
-    nivelActual->dibujar(
-    ventana
-);
+    ventana.draw(
+        *textoPuntos
+    );
 
-jugador->dibujar(
-    ventana
-);
+    for(int i = 0; i < 50; i++)
+{
+    sf::RectangleShape bloque(
+        {64.f,64.f}
+    );
 
-    jugador->dibujar(ventana);
+    bloque.setPosition(
+        {
+            i * 64.f,
+            600.f
+        }
+    );
+
+    bloque.setFillColor(
+        sf::Color(
+            120,
+            70,
+            15
+        )
+    );
+
+    ventana.draw(
+        bloque
+    );
+}
 
     ventana.display();
 }

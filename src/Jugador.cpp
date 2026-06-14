@@ -70,10 +70,22 @@ void Jugador::recibirDanio(int cantidad)
 
     vidas -= cantidad;
 
+    if(vidas < 0)
+    {
+        vidas = 0;
+    }
+
     invencible = true;
 
     tiempoInvencible = 1.5f;
+
+    std::cout
+        << "VIDAS: "
+        << vidas
+        << std::endl;
 }
+
+
 
 void Jugador::actualizar(float dt)
 {
@@ -120,6 +132,19 @@ void Jugador::actualizar(float dt)
     {
         bolita->actualizar(dt);
     }
+
+    if(tiempoInvencible > 0.f)
+{
+    tiempoInvencible -= dt;
+
+    invencible = true;
+}
+else
+{
+    invencible = false;
+}
+
+
 }
 
 int Jugador::getVidas() const
@@ -130,4 +155,11 @@ int Jugador::getVidas() const
 int Jugador::getPuntuacion() const
 {
     return puntuacion;
+}
+
+void Jugador::agregarPuntos(
+    int cantidad
+)
+{
+    puntuacion += cantidad;
 }

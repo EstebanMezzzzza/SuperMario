@@ -9,7 +9,7 @@ Bloque::Bloque()
     );
 
     sprite->setScale(
-        {.15f, .15f}
+        {.10f, .10f}
     );
 }
 
@@ -20,9 +20,17 @@ Bloque::~Bloque()
 
 void Bloque::golpear()
 {
+    if(!destruido)
+    {
+        destruido = true;
+    }
 }
 
 bool Bloque::estaDestruido() const
 {
     return destruido;
+}
+
+void Bloque::actualizar(float)
+{
 }

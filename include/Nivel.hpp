@@ -31,6 +31,10 @@ protected:
         std::unique_ptr<Tubo>
     > tubos;
 
+    std::vector<
+        std::unique_ptr<Bloque>
+    > suelo;
+
    
 
 public:
@@ -57,4 +61,14 @@ public:
 std::vector<
     std::unique_ptr<Enemigo>
 >& getEnemigos();
+
+std::vector<
+    std::unique_ptr<Bloque>
+>&getSuelo();
+
+
+std::vector<
+    std::unique_ptr<Bloque>
+>& getBloques();
+
 };

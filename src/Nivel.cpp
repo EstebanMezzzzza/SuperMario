@@ -1,64 +1,132 @@
 #include "Nivel.hpp"
-
-std::vector<
-    std::unique_ptr<Enemigo>
->& Nivel::getEnemigos()
-{
-    return enemigos;
-}
-
-std::vector<
-    std::unique_ptr<Moneda>
->& Nivel::getMonedas()
-{
-    return monedas;
-}
+#include <iostream>
 
 Nivel::Nivel()
 {
+    std::cout
+        << "Creando nivel..."
+        << std::endl;
+
+    // ====================
+    // BLOQUES
+    // ====================
+
+    for(int i = 0; i < 10; i++)
+    {
+        auto bloque =
+            std::make_unique<Bloque>();
+
+        if(
+            !bloque->cargarTextura(
+                "assets/images/bloque.png"
+            )
+        )
+        {
+            std::cout
+                << "Error cargando bloque.png"
+                << std::endl;
+        }
+
+        bloque->setPosicion(
+            500.f + i * 70.f,
+            400.f
+        );
+
+        bloque->setEscala(
+            1.55f,
+            1.55f
+        );
+
+        bloques.push_back(
+            std::move(bloque)
+        );
+    }
+
+    std::cout
+        << "Bloques creados"
+        << std::endl;
+
+    // ====================
+    // MONEDAS
+    // ====================
+
+    for(int i = 0; i < 10; i++)
+    {
+        auto moneda =
+            std::make_unique<Moneda>();
+
+        if(
+            !moneda->cargarTextura(
+                "assets/images/moneda.png"
+            )
+        )
+        {
+            std::cout
+                << "Error cargando moneda.png"
+                << std::endl;
+        }
+
+        moneda->setPosicion(
+            600.f + i * 120.f,
+            300.f
+        );
+
+        moneda->setEscala(
+            0.06f,
+            0.06f
+        );
+
+        monedas.push_back(
+            std::move(moneda)
+        );
+    }
+
+    std::cout
+        << "Monedas creadas"
+        << std::endl;
+
+    // ====================
+    // GOOMBAS
+    // ====================
+
     for(int i = 0; i < 5; i++)
-{
-    auto bloque =
-        std::make_unique<Bloque>();
+    {
+        auto enemigo =
+            std::make_unique<Enemigo>();
 
-    bloque->setPosicion(
-        500.f + i * 64.f,
-        400.f
-    );
+        if(
+            !enemigo->cargarTextura(
+                "assets/images/goomba.png"
+            )
+        )
+        {
+            std::cout
+                << "Error cargando goomba.png"
+                << std::endl;
+        }
 
-    bloques.push_back(
-        std::move(bloque)
-    );
-}
+        enemigo->setPosicion(
+            900.f + i * 400.f,
+            520.f
+        );
 
-auto moneda =
-    std::make_unique<Moneda>();
+        enemigo->setEscala(
+            0.15f,
+            0.15f
+        );
 
-moneda->setPosicion(
-    800.f,
-    300.f
-);
+        enemigos.push_back(
+            std::move(enemigo)
+        );
+    }
 
-monedas.push_back(
-    std::move(moneda)
-);
+    std::cout
+        << "Goombas creados"
+        << std::endl;
 
-auto enemigo =
-    std::make_unique<Enemigo>();
-
-enemigo->setPosicion(
-    1200.f,
-    520.f
-);
-
-enemigos.push_back(
-    std::move(enemigo)
-);
-
-std::vector<
-    std::unique_ptr<Moneda>
->& getMonedas();
-
+    std::cout
+        << "Nivel creado correctamente"
+        << std::endl;
 }
 
 Nivel::~Nivel()
@@ -116,10 +184,43 @@ void Nivel::dibujar(
     }
 
     for(auto& enemigo :
-        enemigos)
+    enemigos)
+{
+    if(
+        enemigo->estaActiva()
+    )
     {
         enemigo->dibujar(
             ventana
         );
     }
+}
+}
+
+std::vector<
+    std::unique_ptr<Bloque>
+>& Nivel::getBloques()
+{
+    return bloques;
+}
+
+std::vector<
+    std::unique_ptr<Bloque>
+>& Nivel::getSuelo()
+{
+    return suelo;
+}
+
+std::vector<
+    std::unique_ptr<Moneda>
+>& Nivel::getMonedas()
+{
+    return monedas;
+}
+
+std::vector<
+    std::unique_ptr<Enemigo>
+>& Nivel::getEnemigos()
+{
+    return enemigos;
 }

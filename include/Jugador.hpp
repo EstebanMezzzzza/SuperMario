@@ -12,13 +12,17 @@ class Jugador : public Entidad
 protected:
 
     int vidas;
+
     int puntuacion;
 
     bool enSuelo;
+
     bool invencible;
 
     float tiempoInvencible;
+
     float velocidadMovimiento;
+
     float fuerzaSalto;
 
     std::vector<
@@ -28,6 +32,10 @@ protected:
 public:
 
     Jugador();
+
+     int getVidas() const;
+
+    int getPuntuacion() const;
 
     virtual ~Jugador();
 
@@ -47,7 +55,7 @@ public:
         float dt
     ) override;
 
-    int getVidas() const;
-
-    int getPuntuacion() const;
+    void agregarPuntos(
+    int cantidad
+);
 };

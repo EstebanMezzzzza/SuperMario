@@ -39,6 +39,14 @@ bool Entidad::cargarTextura(
         );
 
     return true;
+
+   std::cout
+    << ruta
+    << " -> "
+    << textura->getSize().x
+    << " x "
+    << textura->getSize().y
+    << std::endl;
 }
 
 sf::FloatRect Entidad::obtenerLimites() const
@@ -94,4 +102,17 @@ void Entidad::activar()
 void Entidad::desactivar()
 {
     activa = false;
+}
+
+void Entidad::setEscala(
+    float x,
+    float y
+)
+{
+    if(sprite)
+    {
+        sprite->setScale(
+            {x, y}
+        );
+    }
 }

@@ -20,5 +20,7 @@ public:
 
     void golpear();
 
+    void actualizar(float dt) override;
+
     bool estaDestruido() const;
 };

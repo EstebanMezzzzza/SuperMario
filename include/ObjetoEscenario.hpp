@@ -1,10 +1,10 @@
 #pragma once
 
 #include <memory>
-
+#include <Entidad.hpp>
 #include <SFML/Graphics.hpp>
 
-class ObjetoEscenario
+class ObjetoEscenario : public Entidad
 {
 protected:
 

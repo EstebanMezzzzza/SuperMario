@@ -4,7 +4,7 @@ Plomero::Plomero()
 {
     cargarTextura("assets/images/mario.png");
 
-    setPosicion(100.f, 100.f);
+    setPosicion(140.f, 190.f);
 
     sprite->setScale({.15f, .15f});
 }

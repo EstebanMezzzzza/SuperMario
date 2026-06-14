@@ -7,7 +7,7 @@ Moneda::Moneda()
     );
 
     sprite->setScale(
-        {.15f, .15f}
+        {.08f, .08f}
     );
 }
 Moneda::~Moneda()
