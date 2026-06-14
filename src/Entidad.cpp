@@ -13,12 +13,21 @@ Entidad::~Entidad()
 {
 }
 
-void Entidad::dibujar(sf::RenderWindow& ventana)
+void Entidad::dibujar(
+    sf::RenderWindow& ventana
+)
 {
     if(activa && sprite)
     {
-        std::cout << "Dibujando sprite\n";
+        std::cout
+            << "Sprite OK\n";
+
         ventana.draw(*sprite);
+    }
+    else
+    {
+        std::cout
+            << "Sprite NULL\n";
     }
 }
 

@@ -30,10 +30,15 @@ protected:
     std::vector<
         std::unique_ptr<Tubo>
     > tubos;
+    
+    std::unique_ptr<Bloque>
+    banderaFinal;
 
     std::vector<
         std::unique_ptr<Bloque>
     > suelo;
+
+   
 
    
 
@@ -44,6 +49,8 @@ public:
     virtual ~Nivel();
 
     virtual void cargar();
+
+     Bloque* getBanderaFinal();
 
     virtual void actualizar(
         float dt
@@ -66,9 +73,10 @@ std::vector<
     std::unique_ptr<Bloque>
 >&getSuelo();
 
-
 std::vector<
     std::unique_ptr<Bloque>
 >& getBloques();
+
+
 
 };

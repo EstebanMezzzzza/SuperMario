@@ -99,6 +99,22 @@ void Juego::procesarEventos()
 void Juego::actualizar(float dt)
 {
 
+    if(
+    estado ==
+    EstadoJuego::GAME_OVER
+)
+{
+    return;
+}
+
+if(
+    estado ==
+    EstadoJuego::VICTORIA
+)
+{
+    return;
+}
+
     std::cout
     << "Enemigos: "
     << nivelActual->getEnemigos().size()
@@ -239,7 +255,14 @@ for(auto& enemigo :
     {
         jugador->recibirDanio(1);
     }
-}
+
+    enemigo->desactivar();
+
+    jugador->setVelocidad(
+{
+    jugador->getVelocidad().x,
+    -300.f
+});
 }
 
 for(auto& bloque :
@@ -286,8 +309,12 @@ if(
 }
 
 if(
-    jugador->getPosicion().x >
-    3000.f
+    jugador->obtenerLimites()
+    .findIntersection(
+        nivelActual
+            ->getBanderaFinal()
+            ->obtenerLimites()
+    )
 )
 {
     estado =
@@ -309,6 +336,8 @@ textoVidas->setString(
 );
 
 }
+}
+
 
 void Juego::renderizar()
 {
@@ -326,43 +355,6 @@ void Juego::renderizar()
     jugador->dibujar(
         ventana
     );
-
-    for(auto& enemigo :
-        nivelActual->getEnemigos())
-    {
-        auto r =
-            enemigo->obtenerLimites();
-
-        sf::RectangleShape caja;
-
-        caja.setPosition(
-            {
-                r.position.x,
-                r.position.y
-            }
-        );
-
-        caja.setSize(
-            {
-                r.size.x,
-                r.size.y
-            }
-        );
-
-        caja.setFillColor(
-            sf::Color::Transparent
-        );
-
-        caja.setOutlineThickness(
-            2.f
-        );
-
-        caja.setOutlineColor(
-            sf::Color::Red
-        );
-
-        ventana.draw(caja);
-    }
 
     // Cambiar a la vista fija de la interfaz
     ventana.setView(
@@ -400,6 +392,57 @@ void Juego::renderizar()
 
     ventana.draw(
         bloque
+    );
+}
+
+    if(
+    estado ==
+    EstadoJuego::GAME_OVER
+)
+{
+    sf::Text texto(
+        fuente
+    );
+
+    texto.setString(
+        "GAME OVER"
+    );
+
+    texto.setCharacterSize(
+        80
+    );
+
+    texto.setPosition(
+        {250.f,250.f}
+    );
+
+    ventana.draw(
+        texto
+    );
+}
+    if(
+    estado ==
+    EstadoJuego::VICTORIA
+)
+{
+    sf::Text texto(
+        fuente
+    );
+
+    texto.setString(
+        "VICTORIA"
+    );
+
+    texto.setCharacterSize(
+        80
+    );
+
+    texto.setPosition(
+        {250.f,250.f}
+    );
+
+    ventana.draw(
+        texto
     );
 }
 

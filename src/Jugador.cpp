@@ -16,7 +16,7 @@ Jugador::Jugador()
     invencible = false;
 
     velocidadMovimiento = 350.f;
-    fuerzaSalto = -750.f;
+    fuerzaSalto = -950.f;
 }
 
 Jugador::~Jugador()

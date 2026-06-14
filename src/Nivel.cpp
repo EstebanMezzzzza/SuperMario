@@ -1,8 +1,30 @@
 #include "Nivel.hpp"
 #include <iostream>
 
+Bloque* Nivel::getBanderaFinal()
+{
+    return banderaFinal.get();
+}
+
 Nivel::Nivel()
 {
+    banderaFinal =
+    std::make_unique<Bloque>();
+
+banderaFinal->cargarTextura(
+    "assets/images/bandera.png"
+);
+
+banderaFinal->setPosicion(
+    3000.f,
+    430.f
+);
+
+banderaFinal->setEscala(
+    .20f,
+    .20f
+);
+
     std::cout
         << "Creando nivel..."
         << std::endl;
@@ -11,7 +33,7 @@ Nivel::Nivel()
     // BLOQUES
     // ====================
 
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < 40; i++)
     {
         auto bloque =
             std::make_unique<Bloque>();
@@ -28,13 +50,13 @@ Nivel::Nivel()
         }
 
         bloque->setPosicion(
-            500.f + i * 70.f,
-            400.f
-        );
+    100.f + i * 70.f,
+    400.f
+);
 
         bloque->setEscala(
-            1.55f,
-            1.55f
+            .25f,
+            .25f
         );
 
         bloques.push_back(
@@ -50,7 +72,7 @@ Nivel::Nivel()
     // MONEDAS
     // ====================
 
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < 30; i++)
     {
         auto moneda =
             std::make_unique<Moneda>();
@@ -72,8 +94,8 @@ Nivel::Nivel()
         );
 
         moneda->setEscala(
-            0.06f,
-            0.06f
+            1.f,
+            1.f
         );
 
         monedas.push_back(
@@ -89,7 +111,7 @@ Nivel::Nivel()
     // GOOMBAS
     // ====================
 
-    for(int i = 0; i < 5; i++)
+    for(int i = 0; i < 10; i++)
     {
         auto enemigo =
             std::make_unique<Enemigo>();
@@ -107,7 +129,7 @@ Nivel::Nivel()
 
         enemigo->setPosicion(
             900.f + i * 400.f,
-            520.f
+            570.f
         );
 
         enemigo->setEscala(
@@ -127,6 +149,10 @@ Nivel::Nivel()
     std::cout
         << "Nivel creado correctamente"
         << std::endl;
+
+
+        
+    
 }
 
 Nivel::~Nivel()
@@ -152,6 +178,18 @@ void Nivel::actualizar(
     {
         moneda->actualizar(dt);
     }
+
+    enemigos.erase(
+    std::remove_if(
+        enemigos.begin(),
+        enemigos.end(),
+        [](const auto& enemigo)
+        {
+            return !enemigo->estaActiva();
+        }
+    ),
+    enemigos.end()
+);
 }
 
 void Nivel::dibujar(
@@ -194,6 +232,40 @@ void Nivel::dibujar(
             ventana
         );
     }
+}
+
+for(auto& bloque : bloques)
+{
+    auto r =
+        bloque->obtenerLimites();
+
+    std::cout
+        << "Bloque: "
+        << r.position.x
+        << ", "
+        << r.position.y
+        << std::endl;
+
+    bloque->dibujar(
+        ventana
+    );
+}
+
+for(auto& bloque : bloques)
+{
+    bloque->dibujar(
+        ventana
+    );
+
+    auto r =
+        bloque->obtenerLimites();
+}
+
+    if(banderaFinal)
+{
+    banderaFinal->dibujar(
+        ventana
+    );
 }
 }
 
