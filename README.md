@@ -11,7 +11,7 @@ Lleva a Mario hasta la bandera y recolecta las monedas que puedas, ¡cuidado con
 Lista los controles:
 
 - A/D: Movimiento
-- Space: Saltar
+- Space: Saltar para esquivar.
 
 ### ⚙️ Mecánicas
 
@@ -21,7 +21,7 @@ No toques a los goombas, solo tienes 3 vidas, llega hasta la bandera y recolecta
 
 - Monedas que dan puntuación.
 - Goombas qu te impiden llegar.
-- La bandera, tu unica salida.
+- La bandera, tu unica salida, debes de lleagr!.
 
 ### 👥 Equipo
 
