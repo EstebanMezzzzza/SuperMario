@@ -11,7 +11,7 @@ Lleva a Mario hasta la bandera y recolecta las monedas que puedas, ¡cuidado con
 Lista los controles:
 
 - A/D: Movimiento
-- Space: Saltar
+- Space: Saltar para esquivar.
 
 ### ⚙️ Mecánicas
 
